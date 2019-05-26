@@ -3,19 +3,18 @@ body {
 }
 
 #field {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     border: 10px groove black;
     background-color: #00FF00;
-    position: relative;
     overflow: hidden;
     cursor: pointer;
 }
 
 #ball {
-    position: absolute;
+    position: relative;
     transition: top 1s, left 1s;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
