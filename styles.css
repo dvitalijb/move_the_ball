@@ -4,8 +4,8 @@ body {
 }
 
 .field {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     border: 10px groove black;
     background-color: #00FF00;
     overflow: hidden;
@@ -15,6 +15,4 @@ body {
 .ball {
     position: relative;
     transition: top 1s, left 1s;
-    width: 60px;
-    height: 60px;
 }
